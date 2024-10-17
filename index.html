@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱德智的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .experience, .projects {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills div, .experience div, .projects div {
+            width: 48%;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: blue;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header and Photo -->
+        <div class="header section">
+            <div class="contact-info">
+                <img src="zdz.JPG" alt="朱德智" width="150" height="200">
+                <h1>朱德智</h1>
+                <p><strong>广东 · 深圳</strong></p>
+                <p><strong>电话: </strong>15827076843</p>
+                <p><strong>邮箱: </strong><a href="mailto:hustzdz@qq.com">hustzdz@qq.com</a></p>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education section">
+            <h2>教育背景</h2>
+            <ul>
+                <li><strong>华中科技大学</strong> - 人工智能与自动化, 硕士（保送） (2020.9 - 2023.6)</li>
+                <li><strong>华中科技大学</strong> - 自动化, 学士 (2016.9 - 2020.6)</li>
+            </ul>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skills section">
+            <h2>专业技能</h2>
+            <div>
+                <ul>
+                    <li><strong>编程</strong>: C/C++(精通), Python(熟练), Java(了解)</li>
+                    <li><strong>机器人</strong>: ROS框架(精通), SLAM算法(熟悉)</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>嵌入式</strong>: 底层开发, 通信协议, 自动驾驶系统</li>
+                    <li><strong>其他</strong>: 深度学习, 计算机视觉, Git, 英语CET-6</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="experience section">
+            <h2>工作经历</h2>
+            <div>
+                <h3>华为技术有限公司（2012实验室）</h3>
+                <p><strong>嵌入式软件开发工程师</strong> - 2023.7 至今</p>
+                <ul>
+                    <li>担任核心项目软件交付负责人，主导底层软件架构设计和开发</li>
+                    <li>开发基于Ethercat协议的通信项目，提高系统实时性能</li>
+                    <li>设计实现基于CAN协议的板件高速通信方案，显著提升数据传输效率</li>
+                </ul>
+            </div>
+            <div>
+                <h3>深圳科创学院</h3>
+                <p><strong>首届全奖学员</strong> - 2021.6 - 2022.10</p>
+                <ul>
+                    <li>领导硬科技产品创业，获50万元项目初期投资</li>
+                    <li>发明专利一项，实用新型专利一项</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="projects section">
+            <h2>项目经历</h2>
+            <div>
+                <h3>第二届华为云人工智能大赛无人车挑战杯</h3>
+                <p>2020.08 - 2020.11 - 荣获冠军</p>
+                <ul>
+                    <li>三层系统设计：云端ModelArts训练模型，HiLens Kit部署</li>
+                    <li>控制方案实现：SLAM建图定位，车道线检测，目标检测结果处理</li>
+                </ul>
+            </div>
+            <div>
+                <h3>第三届中国高校智能机器人创意大赛</h3>
+                <p>2020.09 - 2020.11 - 荣获全国一等奖</p>
+                <ul>
+                    <li>无人机建图与定位实现</li>
+                    <li>无人机控制环程序设计</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Awards -->
+        <div class="awards section">
+            <h2>荣誉奖项</h2>
+            <ul>
+                <li>“讲好中国故事”创意大赛 全国二等奖 - 2022.07</li>
+                <li>华中科技大学华为奖学金 - 2021-2022</li>
+                <li>第二届华为云人工智能大赛无人车挑战杯 冠军 - 2020.10</li>
+            </ul>
+        </div>
+
+        <!-- Publications -->
+        <div class="publications section">
+            <h2>论文发表</h2>
+            <ul>
+                <li>D. Zhu, et al., "Semantic Line Map: A Novel Visual Map Representation Scheme for Autonomous Driving Systems," ICoIAS 2023.</li>
+                <li>朱德智, 张铭, et al., "基于ROS的多移动机器人协同承重与导航," 控制工程, 2022.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
