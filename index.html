@@ -22,6 +22,7 @@
             color: white;
             padding: 2rem 0;
             text-align: center;
+            position: relative;
         }
         header img {
             border-radius: 50%;
@@ -32,6 +33,17 @@
         header h1 {
             margin-top: 1rem;
             font-size: 2.5rem;
+        }
+        .language-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .language-switch a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 1rem;
         }
         .container {
             width: 80%;
@@ -97,6 +109,9 @@
         <i class="fas fa-phone"></i> 15827076843 &nbsp; | &nbsp;
         <i class="fas fa-envelope"></i> hustzdz@qq.com
     </p>
+    <div class="language-switch">
+        <a href="index.html">中文</a> | <a href="index_en.html">English</a>
+    </div>
 </header>
 
 <div class="container">
@@ -105,17 +120,49 @@
         <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
         <ul>
             <li>
-                <strong>华中科技大学</strong> &nbsp;|&nbsp; 人工智能与自动化 &nbsp;|&nbsp; 硕士（保送） &nbsp;|&nbsp; 2020.9 - 2023.6
+                <strong>华中科技大学</strong> &nbsp;|人工智能与自动化 &nbsp;|硕士（保送） &nbsp;|&nbsp; 2020.9 - 2023.6
             </li>
             <li>
-                <strong>华中科技大学</strong> &nbsp;|&nbsp; 自动化 &nbsp;|&nbsp; 学士 &nbsp;|&nbsp; 2016.9 - 2020.6
+                <strong>华中科技大学</strong> &nbsp;|自动化 &nbsp;|学士 &nbsp;|&nbsp; 2016.9 - 2020.6
             </li>
         </ul>
     </div>
 
-    <!-- 专业技能 -->
+    <!-- 荣誉奖项 -->
+    <div class="section awards">
+        <h2><i class="fas fa-trophy"></i> 荣誉奖项</h2>
+        <ul>
+            <li><strong>大学生创新创业优秀个人</strong> &nbsp;|校级荣誉 &nbsp;|&nbsp; 2022</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/7135.htm" target="_blank"><strong>“讲好中国故事”创意大赛 全国二等奖</strong></a> &nbsp;|国际文化交流赛事 &nbsp;|&nbsp; 2022.07</li>
+            <li><strong>华中科技大学华为奖学金</strong> &nbsp;|校级奖学金 &nbsp;|&nbsp; 2021-2022</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/3491.htm" target="_blank">华为技术有限公司智能基座先锋少年</a> &nbsp;|企业级荣誉 &nbsp;|&nbsp; 2021.04</li>
+            <li><strong>“先导智能·王燕清奖学金”</strong> &nbsp;|校级奖学金 &nbsp;|&nbsp; 2021</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/3513.htm" target="_blank"><strong>第三届 中国高校智能机器人创意大赛 全国一等奖（第一名）</strong></a> &nbsp;|国家级A类赛事 &nbsp;|&nbsp; 2020.11</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/3531.htm" target="_blank"><strong>第二届 华为云人工智能大赛无人车挑战杯 冠军</strong></a> &nbsp;|国家级赛事（<strong>20万奖金</strong>） &nbsp;|&nbsp; 2020.10</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/3580.htm" target="_blank"><strong>第一届 华为云人工智能大赛无人车挑战杯 亚军</strong></a> &nbsp;|国家级赛事（<strong>10万奖金</strong>） &nbsp;|&nbsp; 2019.10</li>
+            <li><strong>第十三届 “西门子杯”中国智能制造挑战赛 华中一赛区二等奖</strong> &nbsp;|国家级A类赛事 &nbsp;|&nbsp; 2019.08</li>
+            <li><a href="http://aia.hust.edu.cn/info/1179/3675.htm" target="_blank"><strong>第十三届 全国大学生智能汽车竞赛 全国一等奖（第一名）</strong></a> &nbsp;|国家级A类赛事 &nbsp;|&nbsp; 2018.08</li>
+        </ul>
+    </div>
+
+    <!-- 论文发表 -->
+    <div class="section publications">
+        <h2><i class="fas fa-book"></i> 论文发表</h2>
+        <ul>
+            <li>
+                <strong>D. Zhu</strong>, D. He, Y. Zhou and Z. Liu, "Semantic Line Map: A Novel Visual Map Representation Scheme for Autonomous Driving Systems," <em>2023 6th International Conference on Intelligent Autonomous Systems (ICoIAS)</em>, Qinhuangdao, China, 2023, pp. 15-20.
+                <p>提出了一种新型高精度地图表示方案“语义线图（SEML）”，结合深度学习和线段存储方法，提高了自动驾驶系统中地图的存储效率和定位速度。本文使用COLMAP算法结合PSPNet网络，从二维图像生成三维语义线段图，实验证明了该方法在存储与定位效率上的优势。</p>
+            </li>
+            <li>
+                <strong>朱德智</strong>, 张铭, 杨胜岭, 何顶新. 基于ROS的多移动机器人协同承重与导航[J]. 控制工程, 2022, 29(03): 419-427.
+                <p>针对狹窄空间中多移动机器人协同搬运的挑战，提出了基于ROS的协同承重与导航方案，实现了多机器人的协调配合和精确导航。通过基于距离的编队控制方法确保载荷平衡姿态，并通过全局建图和最优路径规划，实现了多机器人协同作业的高效性与稳定性。</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 业务能力 -->
     <div class="section skills">
-        <h2><i class="fas fa-puzzle-piece"></i> 专业技能</h2>
+        <h2><i class="fas fa-puzzle-piece"></i> 业务能力</h2>
         <ul>
             <li><strong>编程：</strong> C/C++（精通），Python（熟练），Java（了解）</li>
             <li><strong>机器人：</strong> ROS框架（精通），SLAM算法（熟悉）</li>
@@ -129,7 +176,7 @@
         <h2><i class="fas fa-briefcase"></i> 工作经历</h2>
         <ul>
             <li>
-                <h3>华为技术有限公司（2012实验室） &nbsp;|&nbsp; 嵌入式软件开发工程师 &nbsp;|&nbsp; 2023.7 - 至今</h3>
+                <h3>华为技术有限公司（2012实验室） &nbsp;|嵌入式软件开发工程师 &nbsp;|&nbsp; 2023.7 - 至今</h3>
                 <p><i class="fas fa-map-marker-alt"></i> 广东 · 东莞</p>
                 <ul class="details">
                     <li>担任核心项目<strong>软件交付负责人</strong>，主导底层软件架构设计和开发，确保项目按时高质量交付。</li>
@@ -144,23 +191,23 @@
                 </ul>
             </li>
             <li>
-                <h3>深圳科创学院 &nbsp;|&nbsp; 首届全奖学员 &nbsp;|&nbsp; 2021.6 - 2022.10</h3>
+                <h3>深圳科创学院 &nbsp;|首届全奖学员 &nbsp;|&nbsp; 2021.6 - 2022.10</h3>
                 <p><i class="fas fa-map-marker-alt"></i> 广东 · 深圳</p>
                 <ul class="details">
-                    <li>深圳科创学院由香港科技大学李泽湘教授创办，被列入深圳"十四五"规划重点扶持的硬科技创新基地。</li>
-                    <li>领导硬科技产品创业：组织进行用户调研，市场分析，痛点分析，价值主张设计等过程。</li>
+                    <li>深圳科创学院由香港科技大学李泽清教授创办，被列入深圳"十四五"规划重点扶持的硬科技创新基地。</li>
+                    <li>领导硬科技产品创业：组织进行用户调研，市场分析，痛点分析，价值举提设计等过程。</li>
                     <li>负责产品Demo研发：确认技术规格，电路设计，程序设计。</li>
                     <li>成果：发明专利一项，实用新型专利一项，获<strong>50万</strong>项目初期投资。</li>
                 </ul>
             </li>
             <li>
-                <h3>武汉精锋微控科技有限公司 &nbsp;|&nbsp; 软件开发部门实习生 &nbsp;|&nbsp; 2019.10 - 2020.5</h3>
+                <h3>武汉精锋微控科技有限公司 &nbsp;|软件开发部门实习生 &nbsp;|&nbsp; 2019.10 - 2020.5</h3>
                 <p><i class="fas fa-map-marker-alt"></i> 湖北 · 武汉</p>
                 <ul class="details">
                     <li>开发Ares智能机器人小车。</li>
                     <li>上位机ROS系统框架搭建：GMapping建图，SLAM导航（C++），目标追踪，微信小程序图传。</li>
                     <li>下位机（控制器）代码编写：基于串级PD的电机、舵机控制，传感器信息滤波，通讯协议设计及调试（C）。</li>
-                    <li>设计基于Leader-Follower的多车协同编队、避障控制（C++）。</li>
+                    <li>设计基于Leader-Follower的多车协同组队、避障控制（C++）。</li>
                 </ul>
             </li>
         </ul>
@@ -181,7 +228,7 @@
                             <li>多模态融合决策控制：融合HiLens Kit推理、雷达点云、摄像头数据，提高系统稳定性。</li>
                         </ul>
                     </li>
-                    <li><strong>项目成果：</strong>荣获冠军，获得奖金及代金券共计<strong>20万元</strong>。</li>
+                    <li><strong>项目成果：</strong>荣获冠军，获得奖金及代金券共计20万元。</li>
                 </ul>
             </li>
             <li>
@@ -191,7 +238,7 @@
                     <li><strong>主要职责：</strong>
                         <ul>
                             <li>无人机建图与定位实现。</li>
-                            <li>无人机控制环程序设计。</li>
+                            <li>无人机控制环程设计。</li>
                             <li>ROS消息收发设置和调试。</li>
                         </ul>
                     </li>
@@ -199,12 +246,12 @@
                 </ul>
             </li>
             <li>
-                <h3>第十三届全国大学生“恩智浦”杯智能汽车竞赛创意组 &nbsp;|&nbsp; 2018.04 - 2018.10</h3>
+                <h3>第十三届全国大学生“恩智普”杯智能汽车竞赛创意组 &nbsp;|&nbsp; 2018.04 - 2018.10</h3>
                 <ul class="details">
-                    <li><strong>项目描述：</strong>设计车模完成线条、数字检测与辨认，几何物识别与搬运，以及排序和对抗任务。</li>
+                    <li><strong>项目描述：</strong>设计车模完成线条、数字检测与辨识，几何物识别与搬运，以及排序和对抗任务。</li>
                     <li><strong>主要职责：</strong>
                         <ul>
-                            <li>赛场内线条、数字的检测与辨认算法开发。</li>
+                            <li>赛场内线条、数字的检测与辨识算法开发。</li>
                             <li>几何物识别与搬运系统设计。</li>
                             <li>下棋策略实现。</li>
                         </ul>
@@ -214,42 +261,10 @@
             </li>
         </ul>
     </div>
-
-    <!-- 荣誉奖项 -->
-    <div class="section awards">
-        <h2><i class="fas fa-trophy"></i> 荣誉奖项</h2>
-        <ul>
-            <li><strong>大学生创新创业优秀个人</strong> &nbsp;|&nbsp; 校级荣誉 &nbsp;|&nbsp; 2022</li>
-            <li><a href="http://aia.hust.edu.cn/info/1179/7135.htm" target="_blank"><strong>“讲好中国故事”创意大赛 全国二等奖</strong></a> &nbsp;|&nbsp; 国际文化交流赛事 &nbsp;|&nbsp; 2022.07</li>
-            <li><strong>华中科技大学华为奖学金</strong> &nbsp;|&nbsp; 校级奖学金 &nbsp;|&nbsp; 2021-2022</li>
-            <li><strong>华为技术有限公司智能基座先锋少年</strong> &nbsp;|&nbsp; 企业级荣誉 &nbsp;|&nbsp; 2021.04</li>
-            <li><strong>“先导智能·王燕清奖学金”</strong> &nbsp;|&nbsp; 校级奖学金 &nbsp;|&nbsp; 2021</li>
-            <li><a href="http://aia.hust.edu.cn/info/1179/3513.htm" target="_blank"><strong>第三届 中国高校智能机器人创意大赛 全国一等奖（第一名）</strong></a> &nbsp;|&nbsp; 国家级A类赛事 &nbsp;|&nbsp; 2020.11</li>
-            <li><a href="http://aia.hust.edu.cn/info/1179/3531.htm" target="_blank"><strong>第二届 华为云人工智能大赛无人车挑战杯 冠军</strong></a> &nbsp;|&nbsp; 国家级赛事（<strong>20万奖金</strong>） &nbsp;|&nbsp; 2020.10</li>
-            <li><a href="http://aia.hust.edu.cn/info/1179/3580.htm" target="_blank"><strong>第一届 华为云人工智能大赛无人车挑战杯 亚军</strong></a> &nbsp;|&nbsp; 国家级赛事（<strong>10万奖金</strong>） &nbsp;|&nbsp; 2019.10</li>
-            <li><strong>第十三届 “西门子杯”中国智能制造挑战赛 华中一赛区二等奖</strong> &nbsp;|&nbsp; 国家级A类赛事 &nbsp;|&nbsp; 2019.08</li>
-            <li><a href="http://aia.hust.edu.cn/info/1179/3675.htm" target="_blank"><strong>第十三届 全国大学生智能汽车竞赛 全国一等奖（第一名）</strong></a> &nbsp;|&nbsp; 国家级A类赛事 &nbsp;|&nbsp; 2018.08</li>
-        </ul>
-    </div>
-
-    <!-- 论文发表 -->
-    <div class="section publications">
-        <h2><i class="fas fa-book"></i> 论文发表</h2>
-        <ul>
-            <li>
-                <strong>D. Zhu</strong>, D. He, Y. Zhou and Z. Liu, "Semantic Line Map: A Novel Visual Map Representation Scheme for Autonomous Driving Systems," <em>2023 6th International Conference on Intelligent Autonomous Systems (ICoIAS)</em>, Qinhuangdao, China, 2023, pp. 15-20.
-                <p>提出了一种新型高精度地图表示方案“语义线图（SEML）”，结合深度学习和线段存储方法，提高了自动驾驶系统中地图的存储效率和定位速度。</p>
-            </li>
-            <li>
-                <strong>朱德智</strong>, 张铭, 杨胜嵘, 何顶新. 基于ROS的多移动机器人协同承重与导航[J]. 控制工程, 2022, 29(03): 419-427.
-                <p>针对狭窄空间中多移动机器人协同搬运的挑战，提出了基于ROS的协同承重与导航方案，实现了多机器人的协调配合和精确导航。</p>
-            </li>
-        </ul>
-    </div>
 </div>
 
 <footer>
-    <p>&copy; 2023 朱德智 | 版权所有</p>
+    <p>&copy; 2023 朱德智 | 所有权利保留</p>
 </footer>
 
 </body>
